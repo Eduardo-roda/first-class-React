@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-pokemon{
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 400px;
+  border: solid 2px;
+  border-color: brown;
+}
+
+.img-pokemon{
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: contain !important;
+}
+
+.name-pokemon{
+  text-transform: uppercase;
+  text-align: center;
+}
+.title-pokemon{
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
