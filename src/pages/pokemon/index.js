@@ -1,6 +1,8 @@
 import { useState ,useEffect } from "react";
 import { getDataFromPokemon } from "../../services";
+import PokemonDetail from "../../components/PokemonDetail";
 import { Container,Card,CardContent,Grid, CardMedia } from "@mui/material";
+
 
 
 
@@ -51,9 +53,10 @@ useEffect(()=>{
                             image={`${imgUrl}${index + 1}.svg`} />
                             <CardContent>
                                 <h3 className="name-pokemon">
-                                    {pokemon.name}
+                                    {pokemon.name} 
                                 </h3>
                             </CardContent>
+                            <PokemonDetail nombre={pokemon.name}  url={pokemon.url} />
                         </Card>
                     </Grid>
                 ))}

@@ -2,7 +2,7 @@
 
 //una buena practica es tener la url del API en uina variable
 
-const BASE_URL = "https://pokeapi.co/api/v2/pokemon?limit=500"
+const BASE_URL = "https://pokeapi.co/api/v2/pokemon?limit=100"
 
 //PODEMOS CREAR UNA FUNCION GENERICA 
 //como paramtero vamos a recbir la url que puede ser la que lista a o la que nos da el detalle 
