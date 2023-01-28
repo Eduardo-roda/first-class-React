@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aquamarine;
+  background-color: rgb(236, 243, 169);
 }
 
 code {
@@ -43,3 +43,5 @@ code {
 .pokemon-button{
   text-align: center;
 }
+
+/********************************************************/

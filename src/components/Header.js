@@ -1,4 +1,5 @@
 import FormUser from "../FormUser";
+import Flags from "../pages/Flags";
 import { Link } from "react-router-dom";
 
 
@@ -8,10 +9,11 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Logo</a>
+                <Link className="navbar-brand" to="/">Logo</Link>
                 <a className="navbar-brand" href="./">Pokemon</a>
-                <a className="navbar-brand" >Formulario</a>
-                
+                <Link className="navbar-brand" to="./formulario">Formulario</Link>
+                <Link className="navbar-brand" to="./flags">Banderas</Link>
+
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

@@ -48,7 +48,7 @@ import { getDataFromPokemon } from "../../services";
                                 </Grid>
                                 <Grid item sm={6} >
                                         <img 
-                                        src={pokemonData.sprites.versions["generation-iii"]["firered-leafgreen"]["back_shiny"]} width={100} />
+                                        src={pokemonData.sprites.versions["generation-iii"]["firered-leafgreen"]["back_shiny"]} width={200}  />
                                 </Grid>
                             </Grid>
                         </div>

@@ -1,7 +1,7 @@
 import { useState ,useEffect } from "react";
 import { getDataFromPokemon } from "../../services";
 import PokemonDetail from "../../components/PokemonDetail";
-import { Container,Card,CardContent,Grid, CardMedia } from "@mui/material";
+import { Container,Card,CardContent,Grid,CardMedia } from "@mui/material";
 
 
 
