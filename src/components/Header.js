@@ -13,6 +13,7 @@ const Header = () => {
                 <a className="navbar-brand" href="./">Pokemon</a>
                 <Link className="navbar-brand" to="./formulario">Formulario</Link>
                 <Link className="navbar-brand" to="./flags">Banderas</Link>
+                <Link className="navbar-brand" to="./pixabait">Pixabait</Link>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

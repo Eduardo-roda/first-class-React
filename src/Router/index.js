@@ -6,6 +6,8 @@ import FormUser from "../FormUser";
 import Header from "../components/Header";
 import Flags from "../pages/Flags";
 import Detail from "../pages/Detail";
+import SearchImage from "../pages/Pixabait"
+import pixabay from "../pages/Pixabait/pixabay";
 
 
 const Router =()=>{
@@ -18,6 +20,8 @@ const Router =()=>{
                 <Route path="formulario" element={<FormUser />}/>
                 <Route path="flags" element={<Flags />}/>
                 <Route path="/flags/detail/:name" element={<Detail />} />
+                <Route path="/pixabait" element={<SearchImage />} />
+                <Route path="/pixabaiy" element={<pixabay />} />
             </Routes>
         </BrowserRouter>
     )
