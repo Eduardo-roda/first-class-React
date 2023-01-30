@@ -1,17 +1,17 @@
 import React from 'react';
 import InputImg from '../../components/Pixabay/InputImg'
 
-const pixabay = () => {
+const PrincipalImg  = () => {
 
 
   return (
     <div>
         <h1>
-            Esto es Pixabay
+            Proyecto Buscador Imagenes
         </h1>
-        <InputImg />
+        
     </div>
   )
 }
 
-export default pixabay;
+export default PrincipalImg;

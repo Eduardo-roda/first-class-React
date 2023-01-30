@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import Flags from "../pages/Flags";
 import Detail from "../pages/Detail";
 import SearchImage from "../pages/Pixabait"
-import pixabay from "../pages/Pixabait/pixabay";
+import PrincipalImg  from "../pages/Pixabait"
 
 
 const Router =()=>{
@@ -16,12 +16,12 @@ const Router =()=>{
         {/*rutas publicas*/}
             <Header />
             <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="formulario" element={<FormUser />}/>
-                <Route path="flags" element={<Flags />}/>
-                <Route path="/flags/detail/:name" element={<Detail />} />
-                <Route path="/pixabait" element={<SearchImage />} />
-                <Route path="/pixabaiy" element={<pixabay />} />
+                <Route path="/"                     element={<Home />}/>
+                <Route path="formulario"            element={<FormUser />}/>
+                <Route path="flags"                 element={<Flags />}/>
+                <Route path="/flags/detail/:name"   element={<Detail />} />
+                <Route path="/pixabait"             element={<SearchImage />} />
+                <Route path="/principalImg"         element={<PrincipalImg  />} />
             </Routes>
         </BrowserRouter>
     )
